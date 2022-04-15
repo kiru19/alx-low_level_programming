@@ -5,10 +5,9 @@
  *
  * return: none
  */
-
 void more_numbers(void)
 {
-	int count, c, a, b;
+	int count c, a, b;
 
 	for  (c = 0; c < 10; c++)
 	{
