@@ -7,24 +7,20 @@
  */
 int main(void)
 {
-	long n = 612852475143;
-	long i, factor = -1;
+       	long int n, fp;
+	
+	n = 612852475143;
 
-	while (n % 2 == 0)
-		n = n / 2, factor = 2;
-
-	for (i = 3; i <= sqrt(n); i += 2)
-	{
-		while (n % i == 0)
-			n = n / i, factor = i;
+	for (fp = 2; fp <= n; fp++)
+	{ 
+		if (n % fp == 0)
+		
+		{
+			n /= fp;
+			fp--;
+		}
 	}
-
-	if (n > 2)
-        {
-		factor = n;
-		printf("%li", factor);
-	}
-	putchar(10);
-
+	printf("%ld\n", fp);
 	return (0);
+
 }
