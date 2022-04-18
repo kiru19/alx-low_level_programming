@@ -6,7 +6,7 @@
  */
 void print_rev(char *s)
 {
-int i, j, kiru;   
+	int i, j, kiru;
 i = 0;
 while (s[i] != '\0')
 {
