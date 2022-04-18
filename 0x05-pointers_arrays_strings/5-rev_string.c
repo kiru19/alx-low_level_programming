@@ -18,7 +18,6 @@ void rev_string(char *s)
 	}
 
 	kiru1 = kiru - 1;
-	
 	for (i = 0; i < kiru / 2; i++)
 	{
 		tmp = s[i];
