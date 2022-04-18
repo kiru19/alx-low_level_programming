@@ -18,7 +18,7 @@ void puts_half(char *str)
 
 	if (kiru % 2 == 0)
 	{
-		for (i = hab /2; str[i] != '\0'; i++)
+		for (i = kiru /2; str[i] != '\0'; i++)
 		{
 			_putchar(str[i]);
 		}
