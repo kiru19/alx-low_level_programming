@@ -1,1 +1,2 @@
-/c/Users/user/Downloads/libholberton.so
+ls -la lib*
+    -rw-rw-r — 1 libdynamic.so
